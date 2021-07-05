@@ -14,7 +14,7 @@ module.exports = {
   app: app,
   start: function (port) {
     app.listen(port, () => {
-      console.log('Up and running on port: ', port);
+      console.log('We are live on ', port);
     });
   },
 };
