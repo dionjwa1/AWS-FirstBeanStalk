@@ -6,7 +6,7 @@ const app = express();
 //routes
 app.use(express.json());
 app.get('/', (request, response) => {
-  response.status(200).send('Success!')
+  response.status(200).send('Great Success!')
 });
 
 //listner
